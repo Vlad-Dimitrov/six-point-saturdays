@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Six Point Saturdays | Contact</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bttn.min.css">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+  <body>
+
+    <!-- Rounded middle rectangle -->
+    <div class="form-div-center">
+
+
+      <h5 class="top-text"> <a href="index.html" class="vlad-link-style"> <-- Six Point Saturdays</a> / &copy; 2018</h5>
+
+
+      <h1>CONTACT:</h1>
+
+
+      <h4>If you have suggestions or comments about the newsletter, or you just want to get in touch, drop me a note below.</h4>
+
+    <!-- Form Only -->
+      <div class="form-only-div-contact" name="SPS Contact Form" netlify>
+        <form action="https://mailthis.to/VDimitrov" method="POST" encType="multipart/form-data">
+          <input type="hidden" name="_subject" value="SPS - New Contact Submission!" />
+          <div style="display: inline-block;">
+          <label for="firstname-c">First Name:</label><br>
+          <input type="text" name="firstname" id="firstname-c" placeholder="First Name" required>
+          </div><br>
+          <div style="display: inline-block;">
+          <label for="replyto-c">Email Address:</label><br>
+          <input type="email" name="_replyto" id="replyto-c" placeholder="Email Address" required>
+          </div><br>
+          <div style="display: inline-block;">
+          <label for="comments-c">Your Comments:</label><br>
+          <textarea name="comments" id="comments-c" rows="8" cols="80" placeholder="Your Comments Here" required></textarea>
+          </div>
+          <input type="hidden" name="_after" value="https://www.sixpointsaturdays.com/thank-you-contact">
+          <input type="hidden" name="_honeypot" value="">
+          <div style="text-align:center;"><button type="submit" class="bttn-minimal bttn-lg button-style-v">Submit</button></div>
+        </form>
+      </div>
+      <div style="text-align:center;">
+        <p class="footer-text-styles footer-styles"><a href="contact.html" class="vlad-link-style">Contact</a> |  <a href="privacy-policy.html" class="vlad-link-style">Privacy Policy</a></p>
+      </div>
+
+    </div>
+    <script src="js/floatingLabel.js"></script>
+    <script>floatingLabel.init();</script>
+  </body>
+</html>
